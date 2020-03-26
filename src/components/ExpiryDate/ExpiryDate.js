@@ -4,9 +4,9 @@ import './ExpiryDate.css'
 const ExpiryDate = (props) =>{
     let date;
     if(props.edate) {
-        date = props.edate
+        date = "End Date: "+ props.edate
     } else {
-        date = props.sdate
+        date = "Start Date: "+ props.sdate
     }
     return (
         <p>

@@ -2,5 +2,6 @@
     overflow-y: scroll;
     height: 200px;
     display: flex;
+    width: auto;
 }
 
