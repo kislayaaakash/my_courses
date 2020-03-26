@@ -6,19 +6,19 @@ import ExpiryDate from '../ExpiryDate'
 export class CourseCard extends Component {
     render() {
         return (
-            <div  className="col-md-4 card course-card" >
+            <div  className="col-sm-4 card course-card" >
                 <div className="row" style={{marginTop:"35px"}}>
 
-                        <div className="col-md-6 course-img">
+                        <div className="col-sm-6 course-img">
                             <CourseImg percent={this.props.data.Percent} image={this.props.data["Img"]}/>
                         </div>
 
-                        <div className="col-md-6 course-details col">
+                        <div className="col-sm-6 course-details col">
                             <>
                                 <p>{this.props.data["Name"]}</p> 
                                 {/* <p>Lorem ipsum dolor sit, amet </p> */}
                                 {
-                                (this.props.data.Percent===100) ? <p>Course Completed !!</p>
+                                (this.props.data.Percent===100) ? <p>Course Completed !!</p> // do the changes here
                                 :
                                 <div>
                                     <ExpiryDate sdate={this.props.data["SDate"]}> </ExpiryDate>

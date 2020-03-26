@@ -4,7 +4,7 @@ import './App.css';
 
 const data = [
   {
-      "Img":"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
+    "Img":"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png",
      "Name":"PYTHON",
      "Percent":38,
      "SDate":"12/12/12",
@@ -53,7 +53,7 @@ const data = [
      "EDate":"31/12/12"
   } ,       
   {
-      "Img":"https://cdn4.iconfinder.com/data/icons/logos-3/504/Java-128.png",
+    "Img":"https://cdn4.iconfinder.com/data/icons/logos-3/504/Java-128.png",
      "Name":"JAVA",
      "Percent":63,
      "SDate":"12/12/12",
