@@ -1,0 +1,25 @@
+body{
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+    width: 95%;
+}
+
+.card{
+    width: 14rem;
+    height:12rem;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253);
+}
+/* .card-body{
+    padding: 2rem 0!important;
+}
+/* .card-text{
+    font-size: 8rem !important;
+     padding: 0.4rem 1.9rem; }
+
+*/
+/* .container-fluid .row{
+    padding-left:6rem;
+    padding-right:8rem;
+}  */
