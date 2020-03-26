@@ -1,0 +1,13 @@
+.card {
+    width: 390px;
+    height: 200px;
+}
+
+.course-img {
+    width: 35% !important;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+}
