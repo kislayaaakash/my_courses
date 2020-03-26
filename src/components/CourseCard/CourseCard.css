@@ -1,5 +1,5 @@
-.card {
-    width: 390px;
+.course-card {
+    width: 380px;
     height: 200px;
 }
 
@@ -8,6 +8,3 @@
     vertical-align: middle;
 }
 
-ul {
-    list-style-type: none;
-}
